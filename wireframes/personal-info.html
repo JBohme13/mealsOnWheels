@@ -18,5 +18,138 @@
     </nav>
     <body>
         <p>the edit verion of the registration form, </p>
+
+        <div className='form-container'>
+                <form className='form-section'>
+                  <h3>Tell us a bit about yourself!</h3>
+                  <label for='reason-for-service'>Reason for service</label>
+                  <textarea
+                    name='reason-for-service'
+                    id='form-reason-for-service'
+                    class='input'
+                    required={true}
+                    aria-required='true'
+                    placeholder='*future instructions here*'
+                  ></textarea><br>
+                  <label for='dietary-restrictions'>Dietary Restrictions</label>
+                  <textarea
+                    name='dietary-restrictions'
+                    id='form-dietary-restrictions'
+                    class='input'
+                    required={true}
+                    aria-required='true'
+                    placeholder='*future instructions here*'
+                  ></textarea><br>
+                  <label for='fish'>Do you eat Fish?</label>
+                  <select
+                    name='fish'
+                    id='form-fish'
+                    class='input'
+                    required={true}
+                    aria-required='true'
+                  >
+                      <option value=''>--Select one</option>
+                      <option value='Yes'>Yes</option>
+                      <option value='No'>No</option>
+                  </select><br>
+                  <h4>Please check all that apply</h4>
+                  <label for='checkbox-1'>Limited Vision</label>
+                  <input
+                    type='checkbox'
+                    name='checkbox-1'
+                    id='form-checkbox-1'
+                    className='form-checkbox'
+                    value='Limited Vision'
+                    required={false}
+                  /> <br>
+                  <label for='checkbox-2'>Limited Hearing</label>
+                  <input 
+                    type='checkbox'
+                    name='checkbox-2'
+                    id='form-checkbox-2'
+                    className='form-checkbox'
+                    value='Limited hearing'
+                    required={false}
+                  /><br>
+                  <label for='checkbox-3'>Require Oxygen</label>
+                  <input
+                    type='checkbox'
+                    name='checkbox-3'
+                    id='form-checkbox-3'
+                    className='form-checkbox'
+                    value='Require Oxygen'
+                    required={false}
+                  /><br>
+                  <label for='checkbox-4'>Smoker</label>
+                  <input
+                    type='checkbox'
+                    name='checkbox-4'
+                    id='form-checkbox-4'
+                    className='form-checkbox'
+                    value='Smoker'
+                    required={false}
+                  /><br>
+                  <label for='checkbox-5'>Limited Mobility</label>
+                  <input
+                    type='checkbox'
+                    name='checkbox-5'
+                    id='form-checkbox-5'
+                    className='form-checkbox'
+                    value='Limited Mobility'
+                    required={false}
+                  /><br>
+                  <label for='checkbox-6'>Confusion</label>
+                  <input
+                    type='checkbox'
+                    name='checkbox-5'
+                    id='form-checkbox-6'
+                    class='form-checkbox'
+                    value='Confusion'
+                    required={false}
+                  /><br>
+                  <label for='checkbox-7'>Lifeline</label>
+                  <input
+                    type='checkbox'
+                    name='chekcbox-7'
+                    id='form-checkbox-7'
+                    class='form-checkbox'
+                    value='Lifeline'
+                    required={false}
+                  /><br>
+                  <label for='checkbox-8'>Pets</label>
+                  <input
+                    type='checkbox'
+                    name='checkbox-8'
+                    id='form-checkbox-8'
+                    class='form-checkbox'
+                    value='Pets'
+                    required={false}
+                  /><br>
+                  <label for='checkbox-9'>Medications taken more than 4 times daily</label>
+                  <input
+                    type='checkbox'
+                    name='checkbox-9'
+                    id='form-checkbox-9'
+                    class='form-checkbox'
+                    value='Medications taken more than 4 times daily'
+                    required={false}
+                  /><br>
+                  <label for='checkbox-10'>Former Military</label>
+                  <input
+                    type='checkbox'
+                    name='checkbox-10'
+                    id='form-checkbox-10'
+                    class='form-checkbox'
+                    value='Former Military'
+                    required={false}
+                  /><br>
+
+                  <h3>etc.</h3>
+                  <button
+                  >
+                     <a href='home.html'>Continue</a>
+                  </button>
+                </form>
+              </div>
     </body>
 </html>

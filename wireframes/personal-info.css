@@ -8,12 +8,16 @@ nav {
     margin: 10px;
 }
 
-#current-meal-schedule {
-    background: lightgray;
-    height: 500px;
+.form-section {
     width: 80%;
-    text-align: center;
     margin-right: 10%;
     margin-left: 10%;
-    font-size: 18px;
+}
+
+.input {
+    margin: 10px;
+}
+
+.form-checkbox {
+    margin: 10px;
 }
